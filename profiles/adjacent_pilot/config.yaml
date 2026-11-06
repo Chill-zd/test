@@ -1,0 +1,54 @@
+budget:
+  max_calls_extract_total: 400
+  max_calls_per_task: 4
+compile:
+  cmd:
+  - latexmk
+  - -pdf
+  - -interaction=nonstopmode
+  - -halt-on-error
+  - -no-shell-escape
+  timeout_sec: 300
+embedding:
+  device: cpu
+  model_name: BAAI/bge-small-en-v1.5
+llm:
+  gpt:
+    api_key_env: POLISHPAPER_OPENAI_API_KEY
+    base_url: https://api.openai.com/v1
+    executable: codex
+    max_input_utf8_bytes: 120000
+    max_output_tokens: 4096
+    model: gpt-6.1-sol
+    timeout_sec: 180
+    transport: codex_host
+  retry: 2
+  sonnet:
+    api_key_env: POLISHPAPER_POE_API_KEY
+    base_url: https://api.poe.com/v1
+    max_input_utf8_bytes: 120000
+    max_output_tokens: 4096
+    model: claude-sonnet-5.5
+  temperature_extract: 0.0
+  temperature_write: 0.3
+retrieval:
+  max_evidence_units: 8
+  max_feedback_entries: 4
+  max_lexicon_entries: 6
+  max_pattern_entries: 4
+  max_structure_packet_chars: 650000
+review:
+  escalation_claim_words:
+  - prove
+  - optimal
+  - if and only if
+  - guarantee
+  - tight
+  - necessary
+  - sufficient
+  - converge
+  - complexity
+  - polynomial
+validators:
+  max_diff_ratio: 0.6
+  max_unsourced_changes: 0

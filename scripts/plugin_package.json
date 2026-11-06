@@ -1,0 +1,54 @@
+{
+  "schema": "polishpaper-plugin-package-1",
+  "files": [
+    "plugin.json",
+    "pyproject.toml",
+    "README.md",
+    "ACCEPTANCE.md",
+    "config.yaml",
+    "concepts_seed.yaml",
+    "section_map.yaml",
+    "skills/polishpaper/SKILL.md",
+    "docs/DESIGN_DECISIONS.md",
+    "docs/IMPLEMENTATION_STATUS.md",
+    "docs/STRUCTURE_IMPLEMENTATION.md",
+    "scripts/build_plugin.py",
+    "scripts/plugin_package.json",
+    "scripts/prepare_structure_review.py",
+    "docs/M8_PLAN.md",
+    "docs/CONTEXT_V2_IMPLEMENTATION.md",
+    "docs/consultations/sonnet55_structure_independent_20261104.md",
+    "docs/REVIEWED_FEEDBACK.md",
+    "docs/RELEASE_0.4.1.md",
+    "docs/ACCEPTANCE_PENDING_20261105.md",
+    "docs/EVALUATION_EXCLUSIONS.md",
+    "docs/NOTATION_GUIDE.md",
+    "docs/notation_reference.tex",
+    "docs/WRITING_ROUTES.md",
+    "docs/CLINT_MDP_WRITING_HANDBOOK.md",
+    "docs/RELEASE_0.4.2.md",
+    "docs/HANDBOOK_PROFILE.md",
+    "docs/RELEASE_0.4.3.md",
+    "docs/RELEASE_0.4.4.md",
+    "docs/CURRENT_STATUS.md",
+    "docs/RELEASE_0.4.5.md",
+    "profiles/handbook/config.yaml",
+    "docs/RELEASE_0.4.6.md",
+    "docs/RELEASE_0.4.7.md",
+    "docs/ADJACENT_TRANSFER_PILOT.md",
+    "profiles/adjacent_pilot/config.yaml",
+    "docs/RELEASE_0.4.8.md"
+  ],
+  "globs": [
+    "polishpaper/**/*.py",
+    "polishpaper/prompts/*.md",
+    "polishpaper/resources/*.yaml"
+  ],
+  "excluded_files": [
+    "polishpaper/structure/bounded_evidence.py"
+  ],
+  "generated": [
+    ".codex-plugin/plugin.json",
+    "PACKAGE_MANIFEST.json"
+  ]
+}

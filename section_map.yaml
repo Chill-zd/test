@@ -1,0 +1,79 @@
+overrides:
+  Preliminaries: preliminaries
+  Robust Bellman Updates via Simplex Projections: algorithm
+  Fast Projections on $\phi$-Divergence Simplices: algorithm
+  Fast Projections on $\phi$-Divergence Simplices/Kullback-Leibler Divergence: algorithm
+  Fast Projections on $\phi$-Divergence Simplices/Burg Entropy: algorithm
+  Fast Projections on $\phi$-Divergence Simplices/Variation Distance: algorithm
+  Fast Projections on $\phi$-Divergence Simplices/$\chi^2$-Distance: algorithm
+  Factored Markov Decision Processes: model_setup
+  Factored Markov Decision Processes/MILP-Based Feature Representation: model_setup
+  Factored Markov Decision Processes/Cutting Plane Solution Scheme: algorithm
+  Robust Factored Markov Decision Processes: model_setup
+  Robust Factored Markov Decision Processes/Column-and-Constraint Generation Scheme: algorithm
+  Robust Factored Markov Decision Processes/Solution of the Master Problem: algorithm
+  Robust Factored Markov Decision Processes/Solution of the Subproblems: algorithm
+  Factored Ambiguity Sets: model_setup
+  Numerical Experiments/Factored Markov Decision Processes: experiments
+  Numerical Experiments/Robust Factored Markov Decision Processes: experiments
+  Numerical Experiments/Factored Multi-Armed Bandit Problems: experiments
+  'E-Companion A: Formal Construction of the Lift': appendix
+  'E-Companion B: Proofs': appendix
+  Bellman Updates for $s$-Rectangular Robust MDPs: algorithm
+  $1$-Norm Ambiguity Sets: algorithm
+  $2$-Norm Ambiguity Sets: algorithm
+  $2$-Norm Ambiguity Sets/Solution Set of the Nonlinear Equation~\eqref{eq:2norm:nonlinear_genericform}: algorithm
+  $2$-Norm Ambiguity Sets/Efficient Solution for Equation System~\eqref{eq:2norm:nonlinear_eqs}: algorithm
+  $\phi$-Divergence Ambiguity Sets: algorithm
+  $\phi$-Divergence Ambiguity Sets/Kullback-Leibler Divergence: algorithm
+  $\phi$-Divergence Ambiguity Sets/Burg Entropy: algorithm
+  Numerical Results/Projection Problems: experiments
+  Numerical Results/Robust Bellman Operator: experiments
+  Numerical Results/Robust Value Iteration: experiments
+  The Model/Markov Decision Processes: model_setup
+  The Model/Robust Markov Decision Processes: model_setup
+  Double-Loop Robust Policy Mirror Descent: algorithm
+  ? 'Double-Loop Robust Policy Mirror Descent/Global Optimality: Direct
+
+    Parameterization'
+  : theory
+  ? 'Double-Loop Robust Policy Mirror Descent/Global Optimality: Softmax
+
+    Parameterization'
+  : theory
+  Solving the Inner Loop: algorithm
+  Solving the Inner Loop/Transition Mirror Ascent with Global Optimality: algorithm
+  Solving the Inner Loop/Value-Based Approach: algorithm
+  Solving the Inner Loop/Scalability of Parametric Transition: algorithm
+  Solving the Inner Loop/Stochastic Transition Gradient: algorithm
+  Numerical Evaluation/Garnet Problem: experiments
+  Numerical Evaluation/Inventory Management Problem: experiments
+  Numerical Evaluation/Cart-Pole Problem: experiments
+keyword_rules:
+  introduction:
+  - introduction
+  related_work:
+  - related
+  - literature
+  preliminaries:
+  - preliminar
+  - background
+  model_setup:
+  - model
+  - formulation
+  theory:
+  - theory
+  - analysis
+  - properties
+  algorithm:
+  - algorithm
+  - method
+  experiments:
+  - experiment
+  - numerical
+  - computational
+  conclusion:
+  - conclusion
+  - discussion
+  appendix:
+  - appendix

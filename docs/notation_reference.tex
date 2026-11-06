@@ -1,0 +1,158 @@
+% Source-bound notation snippets; reference only. No macro definitions or global renaming.
+% Requires bm only when a chosen snippet uses \bm. Existing manuscript definitions take priority.
+% index_set: 从1到N的有限索引集
+% $[N]$
+% Source: dr_MDP.tex:L166-L166
+% ones_vector: 全一向量
+% $\bm{e}$
+% Source: dr_MDP.tex:L166-L166
+% basis_vector: 第j个坐标为1、其余为0的向量
+% $\bm{e}_j$
+% Source: dr_MDP.tex:L166-L166
+% simplex: 概率单纯形
+% $\Delta_N$
+% Source: dr_MDP.tex:L166-L166
+% probability_measures: 集合X上的全部Borel概率测度
+% $P(\mathcal{X})$
+% Source: dr_MDP.tex:L166-L166
+% dirac: 在向量x处的狄拉克分布
+% $\delta_{\bm{x}}$
+% Source: dr_MDP.tex:L166-L166
+% state_set: 有限状态集合
+% $\mathcal{S}$
+% Source: dr_MDP.tex:L220-L220
+% state_count: 状态数
+% $S$
+% Source: dr_MDP.tex:L220-L220
+% action_set: 有限动作集合
+% $\mathcal{A}$
+% Source: dr_MDP.tex:L220-L220
+% action_count: 动作数
+% $A$
+% Source: dr_MDP.tex:L220-L220
+% initial_distribution: 初始状态分布
+% $\bm{p}_0$
+% Source: dr_MDP.tex:L220-L220
+% transition_vector: 给定状态动作后的下一状态分布
+% $\bm{p}_{sa}$
+% Source: dr_MDP.tex:L220-L220
+% transition_block: 固定状态下全部动作的转移核块
+% $\bm{p}_s$
+% Source: dr_MDP.tex:L220-L220
+% transition_kernel: 全部状态动作的转移核
+% $\bm{p}$
+% Source: dr_MDP.tex:L220-L220
+% transition_reward: 状态s执行动作a转到s′的奖励
+% $r_{sas^{\prime}}$
+% Source: dr_MDP.tex:L220-L220
+% reward_vector: 固定状态动作下按下一状态汇集的奖励
+% $\bm{r}_{sa}$
+% Source: dr_MDP.tex:L220-L220
+% discount_factor: 折扣因子
+% $\lambda$
+% Source: dr_MDP.tex:L220-L220
+% policy: 随机策略
+% $\bm{\pi}$
+% Source: dr_MDP.tex:L226-L226
+% state_policy: 给定状态的动作分布
+% $\bm{\pi}_s$
+% Source: dr_MDP.tex:L226-L226
+% policy_probability: 动作概率分量
+% $\pi_{s a}$
+% Source: dr_MDP.tex:L248-L248
+% value_vector: 状态价值向量及其迭代、最优标记
+% $\bm{v}$
+% Source: dr_MDP.tex:L260-L264
+% bellman_operator: 分布鲁棒贝尔曼算子
+% $\mathfrak{T}$
+% Source: dr_MDP.tex:L260-L264
+% kernel_law: 全转移核的未知概率分布
+% $\mu$
+% Source: dr_MDP.tex:L234-L234
+% state_kernel_law: 状态核块的边际分布
+% $\mu_s$
+% Source: dr_MDP.tex:L236-L236
+% law_ambiguity: 状态矩形的转移核分布歧义集
+% $\mathbb{M}^q$
+% Source: dr_MDP.tex:L234-L234
+% state_law_ambiguity: 以Wasserstein球限制状态核分布的集合
+% $\mathbb{M}_{s}^q$
+% Source: dr_MDP.tex:L238-L238
+% reference_law: Wasserstein球中心的参考/经验分布
+% $\nu_s$
+% Source: dr_MDP.tex:L240-L246
+% kernel_sample_count: 经验分布中的转移核样本数
+% $N$
+% Source: dr_MDP.tex:L246-L246
+% sample_kernel_block: 第i个状态核样本块
+% $\hat{\bm{p}}^i_s$
+% Source: dr_MDP.tex:L246-L246
+% perturbed_kernel_vector: 样本i对应的可选/扰动转移概率
+% $\bm{p}^i_{sa}$
+% Source: dr_MDP.tex:L274-L279
+% sample_kernel_vector: 第i个样本在状态动作处的转移向量
+% $\hat{\bm{p}}^{i}_{sa}$
+% Source: dr_MDP.tex:L274-L279
+% wasserstein_radius: Wasserstein歧义球的半径
+% $\theta$
+% Source: dr_MDP.tex:L238-L238
+% wasserstein_order: Wasserstein阶数及本文地面范数阶数
+% $q$
+% Source: dr_MDP.tex:L238-L244
+% wasserstein_distance: q阶Wasserstein距离
+% $W_q$
+% Source: dr_MDP.tex:L242-L244
+% ground_distance: 用于构造Wasserstein距离的地面距离
+% $d_q$
+% Source: dr_MDP.tex:L244-L244
+% coupling: 两个状态核分布之间的耦合分布
+% $\kappa$
+% Source: dr_MDP.tex:L242-L244
+% coupling_set: 给定两边际分布的全部耦合
+% $\Gamma$
+% Source: dr_MDP.tex:L244-L244
+% expected_kernel_set: Wasserstein分布歧义集导出的期望核集合
+% $\mathbb{B}_s^q$
+% Source: dr_MDP.tex:L250-L256
+% bellman_threshold: Bellman重构的目标上界与外层二分量
+% $\gamma$
+% Source: dr_MDP.tex:L274-L279
+% dual_multiplier: 内层约束的非负对偶乘子
+% $\alpha$
+% Source: dr_MDP.tex:L317-L324
+% reward_plus_value: 奖励向量加折扣后的当前价值向量
+% $\bm{b}_{sa}$
+% Source: dr_MDP.tex:L290-L290
+% projection_subproblem: 固定动作的最小扰动预算子问题
+% $\mathfrak{P}$
+% Source: dr_MDP.tex:L283-L290
+% inner_subproblem: 单样本单动作的内层单纯形子问题
+% $\mathfrak{D}_q$
+% Source: dr_MDP.tex:L322-L324
+% outer_tolerance: 外层γ二分的停止精度
+% $\epsilon_1$
+% Source: dr_MDP.tex:L374-L395
+% inner_tolerance: 内层α二分的停止精度
+% $\epsilon_2$
+% Source: dr_MDP.tex:L374-L395
+% budget_accumulator: 按动作累加的已计算预算/子问题值
+% $r_a$
+% Source: dr_MDP.tex:L374-L395
+% dual_slope: 内层对偶目标的斜率
+% $m$
+% Source: dr_MDP.tex:L385-L386
+% policy_set: 全部平稳随机策略集合
+% $\Pi$
+% Source: ho_petrik_wiesemann_phi_original.tex:L132-L132
+% kernel_ambiguity: 鲁棒MDP的转移核歧义集
+% $\mathcal{U}$
+% Source: dr_MDP.tex:L228-L228
+% phi_state_set: φ散度鲁棒模型中的逐状态核歧义集
+% $\mathcal{P}_s$
+% Source: ho_petrik_wiesemann_phi_original.tex:L159-L159
+% phi_budget: φ散度模型的不确定性预算
+% $\kappa$
+% Source: ho_petrik_wiesemann_phi_original.tex:L161-L161
+% phi_generator: φ散度的凸生成函数
+% $\phi$
+% Source: ho_petrik_wiesemann_phi_original.tex:L165-L165

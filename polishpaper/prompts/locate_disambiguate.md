@@ -1,0 +1,1 @@
+Select exactly one supplied candidate only when justified by the verbatim request and anchor. Return strict JSON {"index":0,"locate_basis":"specific evidence for selection"}, or {"index":null,"locate_basis":"why user clarification is needed"}. Never invent a target or choose by default. Do not revise text.

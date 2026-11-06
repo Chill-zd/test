@@ -1,0 +1,1 @@
+Return strict JSON {"items":[{"function":"definition|assumption|contribution|transition|theorem_intuition|comparison|limitation|notation_intro","template":"reusable construction","examples":[{"text":"verbatim continuous text","source":"exact unit_id"}],"condition":"when applicable"}]}. Use one allowed function per item. No invented examples.

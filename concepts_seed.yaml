@@ -1,0 +1,91 @@
+concepts:
+  MDP:
+  - Markov decision process
+  - Markov decision processes
+  - MDP
+  - MDPs
+  RMDP:
+  - robust Markov decision process
+  - robust Markov decision processes
+  - RMDP
+  - RMDPs
+  DRMDP:
+  - distributionally robust Markov decision process
+  - distributionally robust Markov decision processes
+  - DRMDP
+  - DRMDPs
+  Bellman operator:
+  - Bellman operator
+  - Bellman update
+  ambiguity set:
+  - ambiguity set
+  - uncertainty set
+  policy:
+  - policy
+  - decision rule
+  value function:
+  - value function
+  - value iteration
+  transition kernel:
+  - transition kernel
+  - transition probability
+  reward:
+  - reward
+  - return
+  cost:
+  - cost function
+  - stage cost
+  state space:
+  - state space
+  - states
+  action space:
+  - action space
+  - actions
+  discount factor:
+  - discount factor
+  - discounted
+  Wasserstein distance:
+  - Wasserstein
+  KL divergence:
+  - Kullback
+  - KL divergence
+  total variation:
+  - total variation
+  optimality:
+  - optimality
+  - optimal policy
+  convergence:
+  - convergence
+  - converges
+  complexity:
+  - complexity
+  - polynomial time
+  dynamic programming:
+  - dynamic programming
+  minimax:
+  - minimax
+  - maximin
+  duality:
+  - duality
+  - dual problem
+  convexity:
+  - convexity
+  - convex
+  stationarity:
+  - stationary policy
+  finite horizon:
+  - finite horizon
+  infinite horizon:
+  - infinite horizon
+  sample complexity:
+  - sample complexity
+  approximation:
+  - approximation
+  - approximate
+  regret:
+  - regret
+  risk measure:
+  - risk measure
+  - CVaR
+  robust optimization:
+  - robust optimization

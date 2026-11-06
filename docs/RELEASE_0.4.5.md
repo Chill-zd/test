@@ -1,0 +1,11 @@
+# Version 0.4.5
+
+This release corrects language-only evidence packing: retrieval counts are maxima. Under the explicit byte policy, complete unasked automatic illustration, lexical and pattern options are omitted before handbook exemplars. Requested IDs/papers/notation, annotations, the approved section schema, exact target/neighbors and scientific cautions remain. No source string is clipped. Unrequested external notation preferences are omitted when existing mathematics is frozen; their full catalog remains locally audited.
+
+The tested transport source SHA256 is `3db07f494578387df729f1f79b47d010a6bbf19989bc3a9147b1c7d992eba2b1`. Content-addressed audit paths preserve changed-cap retries and old artifacts. Earlier releases, failed calls, pending reservations, frozen tasks and human decisions remain unchanged.
+
+The real ordinary _01 handbook and bare variants both passed validators, actual Sonnet review and real LaTeX compilation after actual Sol writing. Their academic outputs are identical and all four delivered handbook cards were unused; no advantage is claimed. The fresh handbook input was 83,069 serialized bytes with an estimated 24,961 tokens, retaining all four handbook exemplars while omitting six generic illustrations and five optional lexical contexts. This is a qualified observed case, not a general host-capacity guarantee. The prior legacy complete-full failure remains separate.
+
+Live README/skill wording now reflects supplied approvals and exact current audit/coverage boundaries. Historical documents and signed records are not rewritten. See [current status and evidence](CURRENT_STATUS.md). Final tests, package/cache comparisons and source hashes are under `data/evaluation/release_activation_0.4.5_20261105/`. Private runtime sources remain excluded from the whitelist package. Formal M8, model training and measured writing improvement are not established.
+
+The documented current-user invocation selects the dedicated production handbook home with GPT 85,000 / Sonnet 120,000 byte policies, matching the tested policy, with its data symlink pointing to authoritative live project data; the main-project default and unrelated extraction policy are unchanged.
